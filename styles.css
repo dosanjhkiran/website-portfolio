@@ -64,21 +64,6 @@ main {
 .page-header a:hover {
   color: var(--primary-color);
 }
-
-
-/* Footer */
-.page-footer {
-  padding: 20px;
-  text-align: center;
-  background-color: var(--gray-light);
-}
-.social-media {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
-}
-
 /* Profile Section */
 .profile {
   display: flex;
@@ -227,4 +212,29 @@ button:focus {
     flex-direction: column;
     gap: 10px;
   }
+}
+/* Footer */
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.social-media li {
+  display: flex;
+  align-items: center;
+}
+
+.social-media li a img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.social-media li a:hover img {
+  transform: scale(1.2);
 }

@@ -47,18 +47,7 @@
     color: #007BFF;
   }
   
-  /* Footer */
-  .page-footer {
-    padding: 20px;
-    text-align: center;
-    background-color: #eaeaea;
-  }
-  .social-media {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-  }
+
   
   /* Profile Section */
   .profile {
@@ -201,4 +190,36 @@
       gap: 10px;
     }
   }
+  @media (max-width: 480px) {
+    .social-media {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    gap: 20px;
+  }
+  
+  .social-media li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media li a img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-media li a:hover img {
+    transform: scale(1.2);
+  }
+  
   
