@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 /*css variables*/
 :root {
   --primary-color: #007BFF;
@@ -24,10 +21,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 body {
   font-family: var(--font-family);
   background-color: var(--background-color);
@@ -37,10 +30,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 main {
   flex: 1;
 }
@@ -53,34 +42,18 @@ main {
   padding: 20px 40px;
   background-color: white;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 .logo {
   height: 120px;
   transition: transform 0.5s ease;
 }
-<<<<<<< HEAD
-
 .logo:hover {
   transform: rotate(5deg) scale(1.1);
 }
-
-=======
-.logo:hover {
-  transform: rotate(5deg) scale(1.1);
-}
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 .page-header ul {
   display: flex;
   list-style: none;
   gap: 20px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 .page-header a {
   text-decoration: none;
   color: #333;
@@ -99,10 +72,6 @@ main {
   text-align: center;
   background-color: var(--gray-light);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 .social-media {
   display: flex;
   justify-content: center;
@@ -128,17 +97,9 @@ main {
   border-radius: 50%;
   object-fit: cover;
 }
-<<<<<<< HEAD
-
 .profile__text {
   max-width: 600px;
 }
-
-=======
-.profile__text {
-  max-width: 600px;
-}
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 .profile__text a {
   color: var(--primary-color);
   text-decoration: none;
@@ -180,10 +141,6 @@ button:focus {
   max-width: 1000px;
   margin: auto;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 .work-item {
   background-color: var(--white);
   padding: 20px;
@@ -208,19 +165,11 @@ button:focus {
   padding: 0 20px;
   animation: fadeIn 2s ease-in;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 .about-section ul {
   list-style: none;
   margin: 20px 0;
   padding: 0;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 .about-section li {
   margin-bottom: 10px;
 }
@@ -234,10 +183,6 @@ button:focus {
   margin: 40px auto;
   animation: float 6s ease-in-out infinite;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 .melbourne-path {
   stroke: var(--svg-stroke);
   fill: none;
@@ -251,29 +196,11 @@ button:focus {
   stroke: var(--primary-color);
   stroke-width: 3;
 }
-<<<<<<< HEAD
-
-@keyframes float {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-10px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-=======
 @keyframes float {
   0%   { transform: translateY(0); }
   50%  { transform: translateY(-10px); }
   100% { transform: translateY(0); }
 }
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 @keyframes drawLine {
   to {
     stroke-dashoffset: 0;
@@ -282,59 +209,22 @@ button:focus {
 
 /* Fade In Animation */
 @keyframes fadeIn {
-<<<<<<< HEAD
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-=======
   from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: translateY(0); }
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-<<<<<<< HEAD
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  .profile {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .logo {
-    height: 80px;
-  }
-}
-
-=======
   h1 { font-size: 1.8rem; }
   .profile { flex-direction: column; text-align: center; }
   .logo { height: 80px; }
 }
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
 @media (max-width: 480px) {
   .melbourne-svg {
     max-width: 90%;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
   .page-header ul {
     flex-direction: column;
     gap: 10px;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 442487770ea6187885b5131a68cca78695d732b4
